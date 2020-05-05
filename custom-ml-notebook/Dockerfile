@@ -4,7 +4,7 @@ ARG BASE_CONTAINER=jupyter/scipy-notebook
 FROM $BASE_CONTAINER
 
 
-RUN pip install --quiet 
+RUN pip install --quiet \
 	'torch==1.5.0' \
 	'kernel-run==0.0.13' \
 #&& \
