@@ -10,3 +10,6 @@ RUN pip install --quiet \
 #&& \
 #fix-permissions $CONDA_DIR && \
 #fix-permissions /home/$NB_USER
+
+
+
